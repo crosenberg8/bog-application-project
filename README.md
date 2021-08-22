@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Introduction
+Hello, thank you for showing your interest in Bits of Good! This semester, we are changing how we recruit devs. Instead of asking what flexbox and difference btwn let and var, we would like you to showcase your skills by actually coding out an app! We hope you enjoy the task and feel free to reach out to our email (hello@bitsofgood.org) if you have any questions! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task
+### Feature 1: Todo Form
+1. Form should have input fields for title (a short description of todo item), tags (array of words describing todo item), and a due 
+2. The user can create a tag via a text input field and "create tag" button
+3. The user can view all created tags in the todo form in a list view 
+4. The user can toggle each tag to delete them
+5. The user can create a new todo item appear on the todo list section (feature 3)
+6. The user cannot create a todo item when title and due dates aren't specified
+7. The form should be cleared out after creating a new todo item (title text input field, tag list, tag input field, due date input field should be cleared after creating a new todo item)
 
-## Available Scripts
+### Feature 2: Sort Section
+1. Sort section should have sort by date and sort by completed options
+2. User can sort by date in increasing order by clicking on sort by date option (if todo item A has due date 8/28/2021 and todo item B has due date 9/1/2021, todo item A should appear before todo item B)
+3. User can bring incompleted todo items to front and completed items to the back by clicking on sort by completed option 
+4. If both buttons are toggled, items should be sorted by completedness first and each section, completed and incompleted, should be sorted by dates in increasing order
+6. (Bonus) Implement a filter feature that filters the list of todo items based on tags. Tags should be displayed as dropdown and users should be able to select multiple tags from the dropdown. Note that this is a filter feature, so any todo items that does not contain the feature should not be displayed. Resetting filters should revert the array to previous state (display all items) 
 
-In the project directory, you can run:
+### Feature 3: Todo List section
+1. Todo list section should display todo items contained in a card
+2. Each todo item card should have a title, a due date, and tags
+3. The user can mark the todo completed by toggling the todo card
+4. The toggled todo item should be visually explicit that the item is completed, either via including a checkbox or by graying out todo item card
 
-### `npm start`
+#### Sample UI
+![image](https://user-images.githubusercontent.com/39681900/128660900-8ea9ad4a-85e2-4f5f-afcd-2e9809ac9c9e.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Assessment Rubric

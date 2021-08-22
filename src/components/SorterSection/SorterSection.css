@@ -1,0 +1,15 @@
+.sorter-background {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    background: #fff;
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.sorter-background button {
+    margin-left: 5px;
+    margin-right: 5px;
+}

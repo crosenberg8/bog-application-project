@@ -1,0 +1,29 @@
+.form-background {
+    display: grid;
+    grid-column: 1fr;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    justify-content: center;
+    background: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.form-background h1 {
+    color: #000;
+    background: transparent;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    margin-top: -10px;
+}
+
+form {
+    display: grid;
+    grid-column: 1fr;
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 10px;
+}
