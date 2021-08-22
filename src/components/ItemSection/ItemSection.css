@@ -13,3 +13,8 @@
     margin-top: -10px;
     text-decoration: underline;
 }
+
+.todoTagsDisplayed {
+    display: flex;
+    justify-content: center;
+}
